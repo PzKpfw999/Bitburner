@@ -79,7 +79,6 @@ class Scanner {
 	}
 }
 export async function main(ns) {
-	var mode = ns.args[0];
 	ns.disableLog('ALL');
 	ns.enableLog('print');
 
