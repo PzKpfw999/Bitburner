@@ -1,3 +1,4 @@
+/** @param {NS} ns **/
 class Scanner {
 	constructor(ns, start_server_name, max_depth = 20) {
 		this.ns = ns;
@@ -74,7 +75,7 @@ class Scanner {
 		}
 		if (last_one != '') 
 		{
-			this.net.set(last_one, [this.net.get(last_one)[0], true]);
+			this.net.set(last_one, [depth + 1, true]);
 		}
 	}
 }
