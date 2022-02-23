@@ -1,4 +1,4 @@
 # Bitburner
 Bitburner game repo
 
-Some useful script in Bitburner
+Some useful scripts in Bitburner
